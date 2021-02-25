@@ -1,0 +1,1 @@
+A simple webapp based on angularjs, spring boot and postgreSQL.

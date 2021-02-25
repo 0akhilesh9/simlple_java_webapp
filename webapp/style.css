@@ -1,0 +1,151 @@
+#showData {
+	width: 100%; //600 px;
+	margin: 50px auto;
+	border: 1px solid black;
+	padding: 10px;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.89);
+}
+
+.error {
+	font-size: 18px;
+	text-align: left;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 1, 0, 0.22);
+}
+
+#table-style{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	width: 100%; //480 px;
+	text-align: left;
+	border-collapse: collapse;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	
+}
+#tab-style{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	width: 100%; //480 px;
+	text-align: left;
+	border-collapse: collapse;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+#table-style th, #tab-style th {
+	font-size: 14px;
+	font-weight: high;
+	background: #b9c9fe;
+	border-top: 2px solid #d3ddff;
+	border-bottom: 1px solid #fff;
+	color: #039; 
+	padding: 10px;
+}
+
+#table-style td, #tab-style td {
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid #fff;
+	background: #e8edff; 
+	padding: 10px;
+}
+
+#table-style tbody tr:hover td, #tab-style tbody tr:hover td {
+	background: #d0dafd;
+	color: #339;
+}
+
+.form-style {
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 100%; //500 px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 1, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.form-style input[type="submit"] {
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.form-style input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color: #34CACA;
+}
+
+.ticketDetailsClass{
+	margin: 50px auto; 
+	height: 600px; 
+	width: 100%; 
+	overflow-x: scroll; 
+	overflow-y: scroll;
+}
+.predictionDataClass{
+	overflow-x: scroll; 
+	overflow-y: scroll;
+	margin-top:50px;
+}
+
+.tab-style1{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	width: 100%; //480 px;
+	text-align: left;
+	border-collapse: collapse;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+.tab-style1 th {
+	font-size: 14px;
+	font-weight: high;
+	background: #b9c9fe;
+	border-top: 2px solid #d3ddff;
+	border-bottom: 1px solid #fff;
+	color: #039; 
+	padding: 10px;
+}
+
+.tab-style1 td {
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid #fff;
+	background: #e8edff; 
+	padding: 10px;
+}
+
+.tab-style1 tbody tr:hover td {
+	background: #d0dafd;
+	color: #339;
+}
+
+.buttonClass{
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.buttonClass:hover{
+background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color: #34CACA;	
+}
+
+.dragTableCell {
+	background-color: #dff0d8  !important;
+}

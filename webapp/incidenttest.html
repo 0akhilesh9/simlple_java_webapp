@@ -1,0 +1,58 @@
+<!doctype html>
+<html ng-app="interfacetest">
+<head>
+<title>Interface Demo Test</title>
+<script src="lib/jquery.min.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+<script src="lib/angular.min.js"></script>
+<script src="properties.js"></script>
+<script src="incidenttestjs.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="lib/bootstrap.min.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<div id = "ticketDetailsDiv">
+					<span id="ticketDetails"></span>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div ng-controller="myCtrl">
+					<form name="myForm" class="form-style">
+						<p>
+							Test ID : <input type="text" ng-model="testid" name="testid"
+								id="testid" required>
+						</p>
+
+						<input ng-show="myForm.testid.$valid" type="submit"
+							value="Predict Class" ng-click="perform()"> <input
+							ng-show="myForm.testid.$valid" type="submit"
+							value="Detect Anomaly" ng-click="performAnomaly()">
+					</form>
+											<table class="tab-style1" id="tab-style1" ondragover="allowDrop2(event)" ondrop="drop2(event)">
+							<tr>
+								<th>Test ID's</th>								
+							</tr>							
+						</table>
+						
+						<input class="buttonClass" ng-show="validMany()" type="submit"
+							value="Predict Class" ng-click="performMany()"> 
+						<!--  <input class="buttonClass" ng-show="validMany()" type="submit"
+							value="Detect Anomaly" ng-click="performAnomalyMany()"> -->
+						
+					<div id="predictionData" class="predictionDataClass"></div>
+				</div>
+			</div>
+			<div class="col-md-1">
+				<div ng-controller="myCtrl1" style="margin: 50px auto;">
+					<div id="testIds"
+						style="display: block; overflow: auto; max-height: 450px;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
